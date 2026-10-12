@@ -4,8 +4,10 @@
     background: rgba(255,255,255,0.03);
     backdrop-filter: blur(12px);
     border-radius: 20px;
-    padding: 0 24px;
+    padding: 10px 24px;
     margin-right: 8rem;
+    flex-direction: column;
+    gap: 20px;
 
     h2{
         color: white;
@@ -151,56 +153,4 @@
 .pipeline-content p{
     margin: 10px 0 0;
     color: #9ca3af;
-}
-
-@media (max-width: 768px) {
-    .pipeline-container {
-        width: 100%;
-        box-sizing: border-box;
-        margin: 24px 0 0;
-        padding: 16px;
-        gap: 12px;
-
-        h2 {
-            margin: 0;
-            font-size: 16px;
-        }
-    }
-
-    .pipeline-items {
-        height: auto;
-        gap: 12px;
-        margin: 0 0 4px;
-    }
-
-    .pipeline-icons {
-        width: 44px;
-        height: 44px;
-        flex-basis: 44px;
-        box-sizing: border-box;
-    }
-
-    .pipeline-icons lucide-icon {
-        width: 20px;
-        height: 20px;
-    }
-
-    .search-header,
-    .reader-header,
-    .writer-header,
-    .critic-header {
-        gap: 8px;
-    }
-
-    .pipeline-content span,
-    .pipeline-content h4 {
-        font-size: 12px;
-        line-height: 1.2;
-    }
-
-    .pipeline-content p {
-        margin-top: 4px;
-        font-size: 11px;
-        line-height: 1.35;
-    }
 }
