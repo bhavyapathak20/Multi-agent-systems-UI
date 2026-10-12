@@ -16,7 +16,22 @@ app-pipeline-component {
 	min-width: 0;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1100px) {
+	:host {
+		grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+		column-gap: 16px;
+		padding-inline: 32px;
+		box-sizing: border-box;
+	}
+
+	app-navbar,
+	.intro-column,
+	app-pipeline-component {
+		min-width: 0;
+	}
+}
+
+@media (max-width: 767.98px) {
 	:host {
 		grid-template-columns: minmax(0, 1fr);
 		row-gap: 0;
