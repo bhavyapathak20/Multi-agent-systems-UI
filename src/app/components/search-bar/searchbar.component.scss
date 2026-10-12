@@ -31,7 +31,22 @@ input{
     color: white;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1100px) {
+    .search-bar {
+        width: calc(100% - 24px);
+        max-width: none;
+        height: 52px;
+        box-sizing: border-box;
+        margin: 16px 0 0 24px;
+    }
+
+    input {
+        min-width: 0;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 767.98px) {
     .search-bar {
         width: 100%;
         max-width: none;
