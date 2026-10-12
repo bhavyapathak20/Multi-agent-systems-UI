@@ -1,0 +1,32 @@
+.search-bar{
+    height: 56px;
+    max-width: 600px;
+    margin-left: 8rem;
+    border-radius: 16px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-icon {
+    color: white;
+    margin: 0rem 1rem;
+}
+
+.search-button{
+    margin-right: 1rem;
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    color: white;
+}

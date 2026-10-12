@@ -1,0 +1,33 @@
+.test{
+    // border: 1px white solid;
+    max-width: 600px;
+    color: white;
+    display: grid;
+    padding: 2rem 8rem;
+    gap: 1.3rem;
+
+}
+
+.tagline{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    color: #8B949E;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 56px;
+    margin: 0;
+}
+
+.heading-gradient{
+    color: #7C6CF6;
+}
+
+p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #9CA3AF;
+}

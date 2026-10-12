@@ -1,0 +1,15 @@
+:host {
+	display: grid;
+    grid-template-columns: 1.3fr 1fr;
+}
+
+app-left-section,
+app-searchbar {
+	grid-column: 1;
+}
+
+app-pipeline-component {
+	grid-column: 2;
+	grid-row: 2;
+	min-width: 0;
+}
