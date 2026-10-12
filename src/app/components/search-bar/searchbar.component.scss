@@ -30,3 +30,27 @@ input{
     outline: none;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .search-bar {
+        width: 100%;
+        max-width: none;
+        height: 48px;
+        box-sizing: border-box;
+        margin: 16px 0 0;
+        gap: 8px;
+    }
+
+    .search-icon {
+        margin: 0 0 0 0.85rem;
+    }
+
+    .search-button {
+        margin-right: 0.75rem;
+    }
+
+    input {
+        min-width: 0;
+        font-size: 14px;
+    }
+}

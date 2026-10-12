@@ -15,3 +15,15 @@
 .gradient-text {
   color: #7C6CF6;
 }
+
+@media (max-width: 768px) {
+  .navbar-header {
+    height: auto;
+    padding: 1.5rem 0 1rem;
+  }
+
+  .logo {
+    margin: 0;
+    font-size: 22px;
+  }
+}

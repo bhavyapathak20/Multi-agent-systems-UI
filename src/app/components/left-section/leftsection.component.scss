@@ -1,4 +1,4 @@
-.test{
+.intro-copy{
     // border: 1px white solid;
     max-width: 600px;
     color: white;
@@ -30,4 +30,29 @@ p{
     font-size: 20px;
     line-height: 28px;
     color: #9CA3AF;
+}
+
+@media (max-width: 768px) {
+    .intro-copy {
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+        padding: 1rem 0 0;
+        gap: 0.9rem;
+    }
+
+    .tagline {
+        font-size: 10px;
+    }
+
+    .heading {
+        font-size: 36px;
+        line-height: 1.05;
+    }
+
+    p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 1.4;
+    }
 }
