@@ -13,3 +13,29 @@ app-pipeline-component {
 	grid-row: 2;
 	min-width: 0;
 }
+
+@media (max-width: 768px) {
+	:host {
+		grid-template-columns: minmax(0, 1fr);
+		row-gap: 0;
+		padding-inline: 16px;
+		box-sizing: border-box;
+	}
+
+	app-navbar {
+		grid-column: 1;
+		grid-row: 1;
+		min-width: 0;
+	}
+
+	.intro-column {
+		grid-column: 1;
+		grid-row: 2;
+		min-width: 0;
+	}
+
+	app-pipeline-component {
+		grid-column: 1;
+		grid-row: 3;
+	}
+}
